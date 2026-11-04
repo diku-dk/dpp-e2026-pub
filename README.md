@@ -237,7 +237,7 @@ group will answer individual questions for about 10 min.
 
 ### TA
 
-Your TA is **Lilje Henrich Due** ([widu@di.ku.dk](mailto:due@di.ku.dk)). Lilje
+Your TA is **Lilje Henrich Due** ([due@di.ku.dk](mailto:due@di.ku.dk)). Lilje
 will be grading your weekly assignments.
 
 ### Hendrix GPU cluster
