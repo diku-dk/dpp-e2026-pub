@@ -40,14 +40,14 @@ TBA once KU fights off all those villanous hackers.
 ### Lectures:
 
 * Monday    13:00 - 15:00 in Aud 03 at August Krogh (AKB)
-* Wednesday 10:00 - 12:00 in 1-0-37 at the DIKU Pavillon
+* Wednesday 10:00 - 12:00 in Aud 02 at August Krogh (AKB)
 
 <img align="left" width="300" src="https://github.com/user-attachments/assets/31e64447-eb76-4749-928c-5be09bf37bd2">
 
 ### Labs:
 
-* Monday 15:00 - 17:00 in Aud 02 at August Krogh (AKB).
-* Wednesday 13:00 - 15:00 in 1-0-37 at the DIKU Pavillon.
+* Monday 15:00 - 17:00 in 1-0-37 at the DIKU Pavillon
+* Wednesday 13:00 - 15:00 in 1-0-37 at the DIKU Pavillon
 
 This course schedule is tentative and will be updated as we go along. The lab
 sessions are aimed at providing help for the weeklies and group project. Do not
