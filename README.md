@@ -59,7 +59,7 @@ assume you can solve them without showing up to the lab sessions.
 
 ##### Monday
 
-* **Theme**: Intro, deterministic parallelism, data parallelism, Futhark.
+* **Theme**: [Intro, deterministic parallelism, data parallelism, Futhark.](slides/L1-determ-prog.pdf)
 
 * **Material**:
 
