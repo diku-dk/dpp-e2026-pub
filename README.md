@@ -87,7 +87,7 @@ assume you can solve them without showing up to the lab sessions.
 
 ##### Monday
 
-* **Theme**: Part I: Flattening Nested and Irregular Parallelism
+* **Theme**: [Part I: Flattening Nested and Irregular Parallelism](slides/L3and4-irreg-flattening.pdf)
 
 * **Demo Code**
 
@@ -101,7 +101,7 @@ assume you can solve them without showing up to the lab sessions.
 
 ##### Wednesday
 
-* **Theme**: Part II: Flattening Nested and Irregular Parallelism
+* **Theme**: [Part II: Flattening Nested and Irregular Parallelism](slides/L3and4-irreg-flattening.pdf)
 
 * **Demo Code**
 
