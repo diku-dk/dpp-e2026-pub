@@ -28,8 +28,8 @@ def classicKer [n] (arr: [n]u32) : []u32 = #[unsafe]    -- [1, 2, 3, 4]
        |> scan (+) 0
   let size = (last B) + (last arr) |> i64.u32           -- 6 + 4 = 10
   -- make flag array (unsafe when null segments exist)
-  let flag = replicate n true                           -- [1, 2, 0, 3, 0, 0, 4, 0, 0, 0]
-          |> scatter (replicate size false) (map i64.u32 B)
+  let tmp = replicate n true                           -- [1, 2, 0, 3, 0, 0, 4, 0, 0, 0]
+  let flag= scatter (replicate size false) (map i64.u32 B) tmp
   --
   -- trivial map distribution:
   let ip1s = map (\i -> i+1) arr                        -- [2, 3, 4, 5]
@@ -55,8 +55,8 @@ def explII1Ker [n] (arr: [n]u32) : []u32 = #[unsafe]
   let size = (last B) + (last arr) |> i64.u32
   --
   -- make II1:
-  let tmp = map (\off -> if off==0u32 then 0u32 else 1u32) B
-         |> scatter (replicate size 0u32) (map i64.u32 B)
+  let tmp0 = map (\off -> if off==0u32 then 0u32 else 1u32) B
+  let tmp  = scatter (replicate size 0u32) (map i64.u32 B) tmp0
   let II1 = scan (+) 0 tmp
   --
   -- flatten kernel
