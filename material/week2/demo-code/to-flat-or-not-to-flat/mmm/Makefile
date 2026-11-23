@@ -6,8 +6,12 @@ default: run-spmm
 run-spmm:
 	futhark bench --backend=cuda spmat-mat-mul.fut
 
+# --pass-option=--device="#1"
+
 run-spmv:
-	futhark bench --backend=cuda spmat-vec-mul.fut -r 100
+	futhark bench --backend=cuda spmat-vec-mul.fut -r 10
+
+# --pass-option=--device="#1"
 
 datasets:
 	mkdir -p data 
