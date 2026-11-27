@@ -115,14 +115,6 @@ assume you can solve them without showing up to the lab sessions.
 
 ##### Monday
 
-* **Theme:** Composing list homomorphisms
-
-* **Material**:
-
-  * [More Fun with Monoids](https://okmij.org/ftp/Algorithms/monoid-fun.pdf)
-
-##### Wednesday
-
 * **Theme**: Pointer Structures
 
 * **Material**:
@@ -132,6 +124,14 @@ assume you can solve them without showing up to the lab sessions.
   * [Data Parallel Algorithms by Hillis and Steele](material/week3/hillis-steele.pdf)
 
   * [Aaron Hsu's PhD dissertation](material/week3/hsu_dissertation.pdf) (sections 3.2 and 3.3, but the lecture slides should be enough)
+
+##### Wednesday
+
+* **Theme:** Fun with monoids
+
+* **Material**:
+
+  * [More Fun with Monoids](https://okmij.org/ftp/Algorithms/monoid-fun.pdf)
 
 #### Week 4
 
